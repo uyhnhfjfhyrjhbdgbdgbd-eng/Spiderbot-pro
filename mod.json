@@ -1,0 +1,25 @@
+{
+  "geode": "5.11.2",
+  "gd": { "win": "2.2081", "android": "2.2081" },
+  "id": "tunombre.spiderbot",
+  "name": "SpiderBot",
+  "version": "v1.0.0",
+  "developer": "TuNombre",
+  "description": "Bot que juega por ti solo en la araña (spider). Solo toca, nunca mantiene pulsado.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Activar bot",
+      "description": "Activa o desactiva el bot de la araña.",
+      "default": true
+    },
+    "lookahead-ms": {
+      "type": "int",
+      "name": "Anticipación (ms)",
+      "description": "Cuánto antes del peligro reacciona el bot.",
+      "default": 120,
+      "min": 40,
+      "max": 300
+    }
+  }
+}
